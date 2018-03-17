@@ -49,7 +49,7 @@ sqlSession.close();
         book.setAuthor("0");
         book.setName("本");
 
-        //查询作者为'QE'，标题包含'本'字的所有书
+        //查询作者为'0'，标题包含'本'字的所有书
         bookDao.selectBooks(book)
                 .forEach(System.out::println);
 
