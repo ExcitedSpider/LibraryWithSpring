@@ -1,0 +1,13 @@
+CREATE DATABASE library_system
+
+USE library_system
+
+CREATE TABLE book(
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	name VARCHAR(35) NOT NULL,
+	author VARCHAR(35) NOT NULL,
+	type INT NOT NULL DEFAULT 0,
+	publisher VARCHAR(35) NOT NULL,
+	borrower INT,
+	due_date DATE
+)

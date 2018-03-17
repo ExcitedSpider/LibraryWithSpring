@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="Spring MVC" type="spring-mvc">
+    <CLASSES>
+      <root url="jar://D:/Program Files/java/whl/springmvc/aopalliance-1.0.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/commons-logging-1.2.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-aop-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-aspects-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-beans-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-context-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-context-support-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-core-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-expression-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-instrument-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-instrument-tomcat-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-jdbc-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-jms-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-messaging-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-orm-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-oxm-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-test-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-tx-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-web-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-webmvc-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-webmvc-portlet-4.3.14.RELEASE.jar!/" />
+      <root url="jar://D:/Program Files/java/whl/springmvc/spring-websocket-4.3.14.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
