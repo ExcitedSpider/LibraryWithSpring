@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--这是与用户User相关的数据库映射配置 -->
+<mapper namespace="dao.UserDao">
+    <insert id="insertUser" parameterType="domain.User" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO user (username,password,gender,birthday,contact)
+                VALUES ('${username}','${password}',${gender},'${birthday}','${contact}')
+    </insert>
+
+    <delete id="deleteUserById" parameterType="domain.User">
+        DELETE FROM user WHERE id = ${id};
+    </delete>
+
+    <update id="changeUserInfo" parameterType="domain.User">
+        UPDATE user
+        <set>
+            <if test="password!=null">
+                password = '${password}',
+            </if>
+            <if test="gender!=-1">
+                gender = ${gender},
+            </if>
+            <if test="birthday!=null">
+                birthday = '${birthday}',
+            </if>
+            <if test="contact!=null">
+                contact = '${contact}'
+            </if>
+        </set>
+        WHERE id = ${id}
+    </update>
+
+    <select id="selectUser" parameterType="domain.User" resultType="domain.User">
+        SELECT * FROM user
+        <where>
+            <if test="id!=0">
+                id = ${id}
+            </if>
+            <if test="username!=null">
+                AND username = '${username}'
+            </if>
+            <if test="gender!=-1">
+                AND gender = ${gender}
+            </if>
+            <if test="birthday!=null">
+                AND birthday = '${birthday}'
+            </if>
+            <if test="contact!=null">
+                AND contact = '${contact}'
+            </if>
+        </where>
+    </select>
+
+</mapper>

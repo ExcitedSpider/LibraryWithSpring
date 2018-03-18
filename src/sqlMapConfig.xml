@@ -27,7 +27,7 @@
     <!-- 加载映射文件 mapper -->
     <mappers>
         <!-- 路径用 斜线（/） 分割，而不是用 点(.) -->
-        <!--<mapper resource="dbserver/qe/com/mapper/UserMapper.xml"/>-->
         <mapper resource="mapper/bookmapper.xml"/>
+        <mapper resource="mapper/usermapper.xml"/>
     </mappers>
 </configuration>

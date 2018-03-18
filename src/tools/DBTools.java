@@ -15,6 +15,7 @@ import java.io.Reader;
 public class DBTools {
     public static SqlSessionFactory sessionFactory;
 
+    private DBTools(){};
     static{
         try {
             //使用MyBatis提供的Resources类加载mybatis的配置文件
