@@ -11,3 +11,12 @@ CREATE TABLE book(
 	borrower INT,
 	due_date DATE
 )
+
+CREATE TABLE user(
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	username VARCHAR(35) UNIQUE NOT NULL,
+	password VARCHAR(35) NOT NULL,
+	gender INT DEFAULT 0,
+	birthday DATE,
+	contact VARCHAR(35)
+)
